@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.share.blog.dal.mysql.mapper.RelationshipMapper">
+  <resultMap id="BaseResultMap" type="com.share.blog.dal.mysql.dataobject.RelationshipDO">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="mid" jdbcType="BIGINT" property="mid" />
+  </resultMap>
+</mapper>
